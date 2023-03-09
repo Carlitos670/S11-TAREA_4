@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERFAZ LIBROS</title>
+    <link rel="shortcut icon" href="img/libro1.ico" />
+    <link rel="stylesheet" href="css/trasnp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+            
+            
+            
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>        
+              <header>
+                <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light shadow">
+                  <div class="container-fluid">
+                    <img width="5%" src="img/logo.jpg" alt="imagen1">
+                    <def>
+
+
+                      
+                    </def>
+                    <a class="navbar-brand" href="#">TIENDA DE LIBROS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">       
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        
+                      </ul>             
+                    </div>
+                  </div>
+                </nav>
+              </header>
+            
+              <main>
+            
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol> 
+                  <br> 
+                  <br>
+                  <br>
+                  <div class="card">
+                    <div class="card-header">
+                      <h1 class="text-center">Tienda de Libros</h1>
+                    </div>
+                    <div class="card-body">
+                      <img class="img-fluid" height="20%" src="img/Fondolibre.jpg" alt="Fondolibre">
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="container-xxl">
+                    <div class="container-fluid shadow"><h4 class="text-left fw-bold rounded"></h1>
+                        <div class="row p-1">
+                            <div class="col-3 text-center fw-bold  rounded text-dark"><h4 class="">CAJA</h4>  </div>
+                            <div class="col-3 border rounded">$ 1,000,000 </div>
+                        </div>
+                          <div class="container marketing">
+                            <div class="row">
+                              <div class="col-lg-6 p-5">
+                              <div class="card" style="width: 18rem;">
+                                <img src="img/bodega.png" class="card-img-top" alt="bodega">
+                                <div class="card-body">
+                                  <p class="card-text">Aquí estaran los datos ingresados por el usuario</p>
+                                  <div class="d-flex mx-auto gap-1">
+                                    <button class="btn btn-dark" type="button">Rergistro</button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 p-1">
+                            <div class="card" style="width: 18rem;">
+                              
+                                <h5 class="fw-bold">Libro Actual</h2>
+                                <form>
+                                    <label class="p-1" for="nombre">ISBN:</label>
+                                    <input class="border rounded" type="text" id="ISBN" name="ISBN"><br>
+
+                                    <label class="p-1" for="nombre">Título:</label>
+                                    <input class="border rounded" type="text" id="titulo" name="titulo"><br>
+                                  
+                                    <label class="p-1" for="nombre">Precio Compra:</label>
+                                    <input class="border rounded" type="text" id="Precio Compra" name="Precio Compra"><br>
+
+                                    <label class="p-1" for="nombre">Precio Venta:</label>
+                                    <input class="border rounded" type="text" id="Precio Venta" name="Precio Venta"><br>
+
+                                    
+                                    <div class="d-flex mx-auto gap-1">
+                                        <button class="btn btn-dark" type="button">Abastecer</button>
+                                        <button class="btn btn-success" type="button">Vender </button>
+                                        <button class="btn btn-danger" type="button">Eliminar </button>                                       
+                                    </div>
+                                  </form>
+                              </div>
+                            </div>
+          
+                              <div class="col-lg-6 p-5">
+                                <div class="card" style="width: 18rem;">
+                                  <div class="row p-1">
+                                    <div class="col-5 p-1"> <img height="50 %"  src="" alt=""></div>
+                                    <div class="col-7 p-3 text-left"><h5 class="fw-bold" >Consulta</h2></div>
+                                </div>
+                                <div class="row p-1">
+                                    <div class="col-6 p-4"> <div class="d-grid gap-1">
+                                        <button class="btn btn-dark" type="button">Buscar por ISBN</button>
+                                        <button class="btn btn-dark" type="button">Buscar por Título</button>
+                                        <button class="btn btn-dark" type="button">Libro más Económico</button>  
+                                        <button class="btn btn-dark" type="button">Libro más Costoso</button>
+                                        <button class="btn btn-dark" type="button">Libro más Vendido</button>                                     
+                                    </div></div>
+                                    <div class="col-6 p-1"><form>
+                                        <label class="p-1" for="nombre">ISBN:</label>
+                                        <input class="border rounded" type="text" id="ISBN" name="ISBN"><br>
+    
+                                        <label class="p-1" for="nombre">Título:</label>
+                                        <input class="border rounded" type="text" id="titulo" name="titulo"><br>
+                                      
+                                        <label class="p-1" for="nombre">Precio Compra:</label>
+                                        <input class="border rounded" type="text" id="Precio Compra" name="Precio Compra"><br>
+    
+                                        <label class="p-1" for="nombre">Precio Venta:</label>
+                                        <input class="border rounded" type="text" id="Precio Venta" name="Precio Venta"><br>
+                                      </form></div>
+                                </div>
+                                </div>
+                                
+                                  
+                                     
+                              </div>
+          
+                              <div class="col-lg-6 p-5">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <h5>Transacciones del libro</h5>
+                                    </div>
+                                    <div class="card-body">
+                                      <p class="card-text">Aqui van los datos ingresados</p>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                    <br>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                          </div>
+                          <div>
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    <h5>Panel extensión</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex d-md-block gap-2">
+                                        <button class="btn btn-dark" type="button">Opcion 1 </button>
+                                        <button class="btn btn-dark" type="button">Opcion 2 </button>
+                                        
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted">
+                                <br>
+                                </div>
+                              </div>
+                            
+                                
+                                
+                            </div>
+
+                          </div>
+                    </div>
+                    
+                </div>            
+                  <hr class="featurette-divider">
+              </main>           
+    </section>
+</body>
+</html>
